@@ -1,7 +1,7 @@
-def map_to_negative(array)
-  i = 0
+def map_to_negativize(array)
   negative_array = []
-  while i < array.length do
+  i = 0
+    while i < array.length do
     negative_array.push(array[i]*-1)
     i += 1
   end
