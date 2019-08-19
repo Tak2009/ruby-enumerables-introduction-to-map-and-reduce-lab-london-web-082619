@@ -42,5 +42,3 @@ end
 def reduce_to_total(array)
   array.inject() {|sum, n| sum + n }
 end
-
-
