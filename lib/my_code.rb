@@ -48,5 +48,5 @@ def reduce_to_all_true(array)
 end
 
 def reduce_to_any_true(array)
-  array.all?
+  array.any?
 end
