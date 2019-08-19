@@ -42,3 +42,7 @@ end
 def reduce_to_total(array, starting_point = 0)
   array.inject(starting_point) {|sum, n| sum + n }
 end
+
+def reduce_to_all_true(array)
+ words1.all? {|w| w.kind_of?(true) }
+end
