@@ -39,6 +39,6 @@ def map_to_square(array)
     new_array
 end
 
-def reduce_to_total(array)
-  array.inject() {|sum, n| sum + n }
+def reduce_to_total(array, starting_point)
+  array.inject(starting_point) {|sum, n| sum + n }
 end
